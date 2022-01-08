@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lora&family=Poppins:wght@300&family=Raleway&family=Space+Grotesk:wght@300&display=swap");
+:root {
+	--font-heading: "Poppins", sans-serif;
+	--font-paragrahp: "Raleway", sans-serif;
+}
+
+h1 {
+	padding: 3rem 3rem 3rem 1rem;
+	font-family: var(--font-heading);
+	background-color: #303841;
+	color: #eeeaeb;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+
+h2 {
+	padding: 2rem 2rem 2rem 1rem;
+	color: #303841;
+	font-family: var(--font-heading);
+}
+
+ol {
+	font-family: var(--font-paragrahp);
+	font-size: 24px;
+}
