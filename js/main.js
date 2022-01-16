@@ -8,7 +8,7 @@ const array = [
 	},
 	{
 		label: `week 0${count++}`,
-		url: "https://kjg1993.github.io/wdd330-portfolio/index.html",
+		url: "../week02/index_02.html",
 	},
 ];
 

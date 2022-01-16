@@ -19,7 +19,23 @@ h2 {
 	font-family: var(--font-heading);
 }
 
+h3 {
+	padding: 1rem 2rem 1rem 1rem;
+	color: #303841;
+	font-family: var(--font-heading);
+	text-decoration: underline 3px;
+}
+
 ol {
 	font-family: var(--font-paragrahp);
 	font-size: 24px;
+}
+
+li,
+a,
+p,
+label {
+	font-family: var(--font-paragrahp);
+	font-size: 24px;
+	padding: 0rem 0rem 0rem 2rem;
 }
