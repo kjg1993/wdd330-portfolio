@@ -1,18 +1,27 @@
-var index = 0;
-
-document.querySelectorAll(".square").forEach((item) => {
-	item.addEventListener("touchend", (event) => {
-		if (index % 2 == 0) {
-			item.innerHTML = "X";
-		} else {
-			item.innerHTML = "O";
-		}
-		index++;
-	});
-});
+const board = document.querySelector(".container");
+const divBoard = document.querySelector(".square");
+const resetButton = document.getElementById("reset");
+const player1 = "X";
+const player2 = "O";
+let player = player1;
+function addPiece(e) {
+	console.log(e.target);
+	e.target.innerHTML = player;
+	if (player === player1) player = player2;
+	else player = player1;
+}
 
 function reset() {
-	document.querySelectorAll(".square").forEach((item) => {
-		item.innerHTML = "";
+	const divBoard = document.querySelector(".container");
+	for (let i = 0; i < divBoard.children.length; i++) {
+		divBoard.children[i].innerText = "";
+	}
+	const children = Array.from(divBoard.children);
+	const empty = children.filter(function (child) {
+		return child.innerText == "X" || child.innerText == "O";
 	});
+	console.log(empty);
 }
+board.addEventListener("click", addPiece);
+divBoard.addEventListener("click", addPiece);
+reset.addEventListener("click", reset);
