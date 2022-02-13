@@ -24,7 +24,7 @@ const array = [
 	},
 	{
 		label: `week 0${count++}`,
-		url: "./week05/index_06.html",
+		url: "./week06/index_06.html",
 	},
 ];
 
