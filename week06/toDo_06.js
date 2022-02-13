@@ -1,8 +1,8 @@
-import {readFromLS, writeToLS} from "./ls.js";
+import {readFromLS, writeToLS} from "./ls_06.js";
 
-import {addListeners} from "./main.js";
+import {addListeners} from "./main_06";
 
-import {onTouch, qs} from "./utilities.js";
+import {onTouch, qs} from "./utilities_06";
 
 class Todos {
 	/**

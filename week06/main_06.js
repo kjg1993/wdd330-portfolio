@@ -1,6 +1,6 @@
-import {qs, onTouch} from "./utilities.js";
+import {qs, onTouch} from "./utilities_06";
 
-import Todos from "./toDos.js";
+import Todos from "./toDo_06";
 
 const toDoList = new Todos(qs("#taskList")[0], "TaskListStorage");
 toDoList.listTodos();
