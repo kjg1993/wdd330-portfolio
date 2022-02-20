@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/styles.css" />
+
+		<title>To Do List</title>
+	</head>
+
+	<body>
+		<header>
+			<h1>WDD 330 Portfolio</h1>
+		</header>
+		<main>
+			<h2 class="mainTitle">AJAX Send</h2>
+			<form
+				id="todo"
+				action="https://jsonplaceholder.typicode.com/todos"
+				method="POST"
+			>
+				<input
+					type="text"
+					name="task"
+					placeholder="Add Task"
+					autofocus
+					required
+				/>
+				<button type="submit">Add Task</button>
+			</form>
+			<p>Check the console.</p>
+		</main>
+		<footer>
+			<a href="chap_13Exercises.html">Return to Chapter 13 Notes</a>
+		</footer>
+		<script src="todo.js"></script>
+	</body>
+</html>
