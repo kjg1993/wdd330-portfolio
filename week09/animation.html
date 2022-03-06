@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Animation Example</title>
+		<link rel="stylesheet" href="../css/styles.css" />
+		<style>
+			#square {
+				margin: 100px;
+				width: 100px;
+				height: 100px;
+				background: #d16;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<h1>WDD 330 Portfolio</h1>
+		</header>
+		<main>
+			<h2 class="mainTitle">Animation Example</h2>
+			<div id="square"></div>
+		</main>
+		<footer>
+			<a href="ch9exercises.html">Return to Chapter 9 Notes</a>
+		</footer>
+		<script>
+			const squareElement = document.getElementById("square");
+			let angle = 0;
+
+			function rotate() {
+				angle = (angle + 2) % 360;
+				squareElement.style.transform = `rotate(${angle}deg)`;
+				window.requestAnimationFrame(rotate);
+			}
+			const id = requestAnimationFrame(rotate);
+		</script>
+	</body>
+</html>

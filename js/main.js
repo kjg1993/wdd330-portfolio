@@ -34,6 +34,10 @@ const array = [
 		label: `week 0${count++}`,
 		url: "./week08/index_08.html",
 	},
+	{
+		label: `week 0${count++}`,
+		url: "./week09/index_09.html",
+	},
 ];
 
 function table() {
