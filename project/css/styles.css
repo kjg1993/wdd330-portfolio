@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lora&family=Poppins:wght@300&family=Raleway&family=Roboto+Mono&display=swap");
+
+:root {
+	--main-font: "Roboto Mono", monospace;
+	--backgrounColor: #f5f6f7;
+	--colorStuff: #1b1b32;
+	--fontSize: 62.5%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--backgrounColor);
+}
+
+h1 {
+	font-family: var(--main-font);
+	font-size: 5.4rem;
+	margin: 0 0 5rem 0;
+	color: var(--colorStuff);
+}
+
+/* UTILITIES*/
+main.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 80rem;
+	margin: 0 auto;
+}
+
+/* main.container > * {
+	width: 100%;
+} */
+
+main .home {
+	display: flex;
+	flex-direction: column;
+}
+
+main .home .btn {
+	text-align: center;
+	font-size: 1.8rem;
+	padding: 1rem 0;
+	width: 20rem;
+	border: 0.1rem solid var(--colorStuff);
+	margin-bottom: 1rem;
+	text-decoration: none;
+	background-color: var(--backgrounColor);
+	color: var(--colorStuff);
+	font-family: var(--main-font);
+}
+
+.btn:hover {
+	cursor: pointer;
+	box-shadow: 0 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+	transform: rotateY(-0.1rem);
+	transition: transform 150ms;
+}
+
+.btn[disabled]:hover {
+	cursor: not-allowed;
+	box-shadow: none;
+	transform: none;
+}
