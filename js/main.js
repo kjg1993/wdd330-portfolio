@@ -3,44 +3,48 @@
 count = 1;
 const array = [
 	{
-		label: `week 0${count++}`,
+		label: `week ${count++}`,
 		url: "https://kjg1993.github.io/wdd330-portfolio/index.html",
 	},
 	{
-		label: `week 0${count++}`,
+		label: `week ${count++}`,
 		url: "./week02/index_02.html",
 	},
 	{
-		label: `week 0${count++}`,
+		label: `week ${count++}`,
 		url: "./week03/index_03.html",
 	},
 	{
-		label: `week 0${count++}`,
+		label: `week ${count++}`,
 		url: "./week04/index_04.html",
 	},
 	{
-		label: `week 0${count++}`,
+		label: `week ${count++}`,
 		url: "./week05/index_05.html",
 	},
 	{
-		label: `week 0${count++}`,
+		label: `week ${count++}`,
 		url: "./week06/index_06.html",
 	},
 	{
-		label: `week 0${count++}`,
+		label: `week ${count++}`,
 		url: "./week07/index_07.html",
 	},
 	{
-		label: `week 0${count++}`,
+		label: `week ${count++}`,
 		url: "./week08/index_08.html",
 	},
 	{
-		label: `week 0${count++}`,
+		label: `week ${count++}`,
 		url: "./week09/index_09.html",
 	},
 	{
-		label: `week 0${count++}`,
+		label: `week ${count++}`,
 		url: "./week10/index_10.html",
+	},
+	{
+		label: `week ${count++}`,
+		url: "./week11/index_11.html",
 	},
 ];
 

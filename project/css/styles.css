@@ -16,10 +16,16 @@ body {
 }
 
 h1 {
+	text-align: center;
 	font-family: var(--main-font);
 	font-size: 5.4rem;
 	margin: 0 0 5rem 0;
 	color: var(--colorStuff);
+}
+
+h2 {
+	font-family: var(--main-font);
+	font-size: 1.8rem;
 }
 
 /* UTILITIES*/
@@ -33,10 +39,6 @@ main.container {
 	max-width: 80rem;
 	margin: 0 auto;
 }
-
-/* main.container > * {
-	width: 100%;
-} */
 
 main .home {
 	display: flex;
@@ -56,15 +58,28 @@ main .home .btn {
 	font-family: var(--main-font);
 }
 
-.btn:hover {
-	cursor: pointer;
-	box-shadow: 0 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
-	transform: rotateY(-0.1rem);
-	transition: transform 150ms;
+/* Play page styles section*/
+
+.choice-container {
+	display: flex;
+	margin-bottom: 0.5rem;
+	width: 100%;
+	border: 0.1rem solid var(--colorStuff);
+	background-color: white;
 }
 
-.btn[disabled]:hover {
-	cursor: not-allowed;
-	box-shadow: none;
-	transform: none;
+.choice-prefix {
+	padding: 1.5rem 2.5rem;
+	background-color: var(--colorStuff);
+	color: white;
+	margin: 0;
+	font-family: var(--main-font);
+	font-weight: 600;
+}
+
+.choice-text {
+	font-family: var(--main-font);
+	font-weight: 600;
+	margin: auto 0;
+	padding: 0 0 0 1rem;
 }
