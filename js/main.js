@@ -47,7 +47,7 @@ const array = [
 		url: "./week11/index_11.html",
 	},
 	{
-		label: `week ${count++}`,
+		label: `week 14`,
 		url: "./week14-project/index.html",
 	},
 ];
