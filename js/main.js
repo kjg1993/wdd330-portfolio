@@ -46,6 +46,10 @@ const array = [
 		label: `week ${count++}`,
 		url: "./week11/index_11.html",
 	},
+	{
+		label: `week ${count++}`,
+		url: "./week14-project/index.html",
+	},
 ];
 
 function table() {
