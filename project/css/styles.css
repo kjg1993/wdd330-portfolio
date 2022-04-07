@@ -73,7 +73,7 @@ main .home {
 .choice-container {
 	display: flex;
 	margin-bottom: 0.5rem;
-	width: 80%;
+	width: 90%;
 	border: 0.1rem solid var(--colorStuff);
 	background-color: white;
 	cursor: pointer;
